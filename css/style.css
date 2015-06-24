@@ -75,7 +75,7 @@ h1 {
      display: inline-block;
 }
 
-header ul {
+header, ul {
      width: 100%
 }
 
@@ -248,11 +248,12 @@ aside img {
 
 aside li {
      text-align: left;
-     display: block;
+     float: left;
+     margin-left: 20px;
 }
 
 aside ul {
-     list-style: circle;
+     list-style: disc;
 }
 
 aside a {
@@ -262,7 +263,6 @@ aside a {
      font-weight: 300;
      font-size: 18px;
      padding-top: 20px;
-     list-style: circle;
-
+     list-style: disc;
 }
 
