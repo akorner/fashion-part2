@@ -58,6 +58,10 @@ body {
      font-weight: 300;
 }
 
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
 header {
      padding-top: 0px;
      width: 100%;
@@ -71,11 +75,11 @@ h1 {
      display: inline-block;
 }
 
-ul {
+header ul {
      width: 100%
 }
 
-li {
+header li {
      width: 15.8%;
      float: left;
      background-color: black;
@@ -83,11 +87,11 @@ li {
      margin-right: .2%;
 }
 
-li.last {
+header li.last {
  margin-right: 0;    
 }
 
-li a {
+header li a {
      color: white;
      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
      font-weight: 300;
@@ -163,13 +167,15 @@ h4 a {
      font-weight: 300;
      font-size: 18px;
      text-decoration: none;
-     float: right;
+     margin-right: 40px;
+     text-align: right;
+     display: block;
      padding: 20px 0 20px 0;
 }
 
 article {
      border-bottom: 1px solid #ECF0F1;
-     padding-bottom: 80px;
+     padding-bottom: 60px;
 
 }
 
@@ -187,8 +193,6 @@ footer p {
      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
      font-weight: 300;
      font-size: 18px;
-     padding-top: 20px;
-
 }
 
 footer a {
@@ -197,6 +201,7 @@ footer a {
      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
      font-weight: 300;
      font-size: 18px;
+     padding-top: 20px;
 }
 
 
@@ -208,7 +213,23 @@ main {
 aside {
      float: left;
      width: 40%;
-     background-color: green;
+     padding-left: 30px;
+     padding-top: 88px;
+     padding-right: 60px;
+}
+
+aside p {
+     color: #888888;
+     line-height: 1.5em;
+}
+
+h5 {
+     color: #888888;
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+     font-weight: bold;
+     font-size: 18px;
+     padding-bottom: 20px;
+
 }
 
 article img {
@@ -216,6 +237,32 @@ article img {
      height: 100%;
 }
 
-/******************************************
-/* LAYOUT                   
-/*******************************************/
+aside img {
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     width: 100%;
+     height: 100%;
+}
+
+aside li {
+     text-align: left;
+     display: block;
+}
+
+aside ul {
+     list-style: circle;
+}
+
+aside a {
+     color: #EF4836;
+     text-decoration: none;
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+     font-weight: 300;
+     font-size: 18px;
+     padding-top: 20px;
+     list-style: circle;
+
+}
+
